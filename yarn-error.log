@@ -1,11 +1,11 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\Nairo Mudumane\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add dotenv
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add axios
 
 PATH: 
-  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\ProgramData\chocolatey\bin;C:\Users\Nairo Mudumane\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Nairo Mudumane\AppData\Local\Programs\Python\Python39\;C:\Users\Nairo Mudumane\AppData\Local\Microsoft\WindowsApps;;C:\Users\Nairo Mudumane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nairo Mudumane\AppData\Roaming\npm;C:\Users\Nairo Mudumane\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\xampp\php;C:\composer;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Nairo Mudumane\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Nairo Mudumane\AppData\Local\Programs\Python\Python39\;C:\Users\Nairo Mudumane\AppData\Local\Microsoft\WindowsApps;;C:\Users\Nairo Mudumane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Nairo Mudumane\AppData\Roaming\npm;C:\Users\Nairo Mudumane\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\Nairo Mudumane\AppData\Local\Yarn\bin
 
 Yarn version: 
-  1.22.17
+  1.22.15
 
 Node version: 
   14.17.6
@@ -27,6 +27,7 @@ npm manifest:
       "dev": "ts-node-dev src/app.ts"
     },
     "dependencies": {
+      "dotenv": "^10.0.0",
       "express": "^4.17.1"
     },
     "devDependencies": {
@@ -267,6 +268,11 @@ Lockfile:
     version "4.0.2"
     resolved "https://registry.yarnpkg.com/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
     integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
+  
+  dotenv@^10.0.0:
+    version "10.0.0"
+    resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
+    integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
   
   dynamic-dedupe@^0.3.0:
     version "0.3.0"
